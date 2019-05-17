@@ -1,0 +1,182 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+.active-1 {
+	background-color: #A8281E;	
+}
+
+.active-2 {
+	background-color: rgb(168, 91, 39);	
+}
+
+.active-3 {
+	background-color: rgb(226, 111, 96);	
+}
+
+.active-4 {
+	background-color: rgb(219, 183, 65);	
+}
+
+
+
+.landing_section{
+	height: 100vh;
+	background-image: url("assets/alpacino-firing-shots.jpg");
+	background-size: cover;
+	background
+	}
+	.landing_section_page-2{
+		height: 100vh;
+		background-image: url("assets/header-bilder-2.jpg");
+		background-size: cover;
+		background
+		}
+		.landing_section_page-3{
+			height: 100vh;
+			background-image: url("assets/header-personen.jpg");
+			background-size: cover;
+			background
+			}
+			.landing_section_page-4{
+				height: 100vh;
+				background-image: url("assets/header-handlungen.jpg");
+				background-size: cover;
+				background
+				}
+	
+.content_section{
+	background-color: #A8281E;
+	height: 1000px;
+}
+.content_section_page-2{
+	background-color: rgb(26, 26, 26);
+	height: 3435px;
+}
+.content_section_page-3{
+	background-color: rgb(226, 111, 96);
+	height: 1000px;
+}
+.content_section_page-4{
+		background-color: rgb(219, 183, 65);
+		height: 1000px;
+}
+.logo img{
+padding-top: 15px;
+padding-left: 15px;
+width: 130px;
+height: 55px;
+}	
+
+.li{
+	list-style: none;
+	font-family: Futura;
+	margin-right: 30px;
+	float: right;
+	}
+
+	*{
+	padding : 0px;
+	margin : 0;
+	text-decoration : none;
+	}
+
+h1 {
+	font-family: Lato, sans-serif;  
+	color : #ffffff;
+	width : 900px;
+	font-size : 75px;
+	font-weight : 700;
+}
+
+.home_title {
+	margin: auto;
+	padding-top: 300px;
+	background: transparent;
+	width: 500px; 
+}
+
+h2{
+	
+	font-family: Lato, sans-serif;
+	color: white;
+	font-size: 50px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 200px;
+	
+}
+
+.topnav{
+	float: right;
+	font-family: Lato, sans-serif;
+	border-style: solid;
+	border: 2px solid white;
+	margin-top: 20px;
+	margin-right: 20px;
+	
+}
+
+	.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+a:hover { 
+  text-decoration-line: underline;
+}
+
+html {
+	scroll-behavior: smooth;
+  }
+
+.page-1 {
+	width: 1000px;
+	height: 550px;
+	padding-top: 25px;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.page-2 {
+	width: 600px;
+	height: 370px;
+	padding-top: 25px;
+	padding-left: 200px;
+	padding-right: 200px;
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	
+	
+	
+}
+
+
+p{
+	font-family: Lato, sans-serif;
+	color: white;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+li{
+	height: 250px;
+	width: 200px;
+}
+
+@media (min-width: 768px) {
+	.carousel-multi-item-2 .col-md-3 {
+	float: left;
+	width: 25%;
+	max-width: 100%; } }
+	
+	.carousel-multi-item-2 .card img {
+	border-radius: 2px; }
