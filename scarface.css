@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* CSS Document */
+/* Framework Vincent 2.0 */
 
 
 
@@ -10,11 +10,9 @@
 .active-2 {
 	background-color: rgb(168, 91, 39);	
 }
-
 .active-3 {
 	background-color: rgb(226, 111, 96);	
 }
-
 .active-4 {
 	background-color: rgb(219, 183, 65);	
 }
@@ -23,40 +21,39 @@
 
 .landing_section{
 	height: 100vh;
-	background-image: url("assets/alpacino-firing-shots.jpg");
+	background-image: url("/assets/alpacino-firing-shots.jpg");
 	background-size: cover;
-	background
 	}
-	.landing_section_page-2{
-		height: 100vh;
-		background-image: url("assets/header-bilder-2.jpg");
-		background-size: cover;
-		background
-		}
-		.landing_section_page-3{
-			height: 100vh;
-			background-image: url("assets/header-personen.jpg");
-			background-size: cover;
-			background
-			}
-			.landing_section_page-4{
-				height: 100vh;
-				background-image: url("assets/header-handlungen.jpg");
-				background-size: cover;
-				background
-				}
-	
+
+.landing_section_page-2{
+height: 100vh;
+background-image: url("/assets/header-bilder-2.jpg");
+background-size: cover;
+
+}
+.landing_section_page-3{
+height: 100vh;
+background-image: url("/assets/header-personen.jpg");
+background-size: cover;
+
+}
+.landing_section_page-4{
+height: 100vh;
+background-image: url("/assets/header-handlungen.jpg");
+background-size: cover;
+}
+
 .content_section{
 	background-color: #A8281E;
 	height: 1000px;
 }
 .content_section_page-2{
 	background-color: rgb(26, 26, 26);
-	height: 3435px;
+	height: 3550px;
 }
 .content_section_page-3{
 	background-color: rgb(226, 111, 96);
-	height: 1000px;
+	height: 3000px;
 }
 .content_section_page-4{
 		background-color: rgb(219, 183, 65);
@@ -90,6 +87,23 @@ h1 {
 	font-weight : 700;
 }
 
+h3 {
+	font-family: Lato, sans-serif;
+	color: white;
+	font-size: 30px;
+	padding-top: 40px;
+	padding-bottom: 10px;
+	padding-left: 200px;
+}
+
+h4 {
+	font-family: Lato, sans-serif;
+	color: white;
+	font-size: 20px;
+	font-style: italic;
+	padding-bottom: 10px;
+	padding-left: 200px;
+}
 .home_title {
 	margin: auto;
 	padding-top: 300px;
@@ -153,10 +167,25 @@ html {
 	display: block;
     margin-left: auto;
 	margin-right: auto;
-	padding-top: 20px;
+	padding-top: 20px;	
+}
+.page-2 :hover{
+	width: 700px;
+	height: 470px;
+	border-style: dashed;
+	border: 2px;
+}
+
+
+
+.page-3 {
+	max-width: 800px;
+	max-height: 290px;
+	padding-top: 25px;
+	padding-left: 200px;
+	padding-right: 200px;
 	
-	
-	
+  height: auto;
 }
 
 
@@ -180,3 +209,8 @@ li{
 	
 	.carousel-multi-item-2 .card img {
 	border-radius: 2px; }
+
+	.footer {
+		padding-left: 200px;
+		padding-top: 75px;
+	}
